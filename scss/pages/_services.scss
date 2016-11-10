@@ -1,0 +1,24 @@
+#services {
+	color:#34495e;
+	background: #f5f5f5;
+	padding-top: 50px;
+}
+
+.enca {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.testimony {
+	margin-bottom: 20px;
+}
+
+.boxborder {
+	border-left: 3px solid grey;
+}
+
+@media (max-width: 768px) {
+	h4 {
+		font-size: 8px;
+	}
+}

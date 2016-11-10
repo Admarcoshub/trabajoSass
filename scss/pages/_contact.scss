@@ -1,0 +1,26 @@
+#contact-us {
+	background: $bg-fondo;
+	padding-bottom: 30px;
+}
+
+.formy {
+	@include margin-top(30px);
+}
+
+.sendy {
+	background:#428bca;
+	color: $white;
+}
+
+.texty {
+	@include margin-top(55px);	
+}
+
+textarea {
+	max-height: 400px;
+	resize: none;
+}
+
+
+
+

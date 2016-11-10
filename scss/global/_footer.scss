@@ -1,0 +1,50 @@
+#footer {
+	font-size: 14px;
+	background: $mainbg-color;
+	padding: 50px 0;
+	box-sizing: border-box;
+	color: #bbb;
+	a {
+		color: #bbb;
+	}
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+}
+
+.media {
+	margin-bottom: 5px;
+}
+
+.media-left {
+	float: left;
+}
+
+.media-object {
+	width: 90px;
+}
+
+.media-body {
+	padding-left: 10px;
+}
+
+footer {
+	background: #2c3e50;
+	padding: 20px 0;
+	box-sizing: border-box;
+	color: #bbb;
+}
+
+#f-nav {
+	text-align: right;
+	a {
+		padding: 0 10px;
+		box-sizing: border-box;
+		color: #bbb;
+		&:last-child {
+			padding-right: 0;
+		}
+	}
+}

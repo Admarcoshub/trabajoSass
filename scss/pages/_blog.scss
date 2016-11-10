@@ -1,0 +1,109 @@
+#blogs {
+	background: $bg-fondo;
+	color: #475a6d;
+}
+
+#blog {
+	@include padding(50px, 0, 50px, 0);
+	box-sizing: border-box;
+}
+
+aside {
+	width: 32%;
+	float: right;
+}
+
+#ads {
+	@include padding(20px, 0, 0, 0);
+	box-sizing: border-box;
+}
+
+.ad {
+	@include padding(15px, 0, 15px, 0);
+	box-sizing: border-box;
+}
+
+.ad img {
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+#blog-c {
+	margin: 20px 0;
+}
+
+aside ul {
+	padding: 0;
+}
+
+aside ul li {
+	list-style: none;
+}
+
+#tag .btn {
+	margin-bottom: 5px;
+}
+
+#fb {
+	margin: 25px 0;
+}
+
+#posts {
+	width: 65%;
+}
+
+.post {
+	border-radius: 5px;
+	background: $white;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.post-img {
+	width: 100%;
+}
+
+.post-img img {
+	width: 100%;
+	height: auto;
+}
+
+.post-info {
+	margin: 20px;
+}
+
+.post-info p {
+	margin-top: 20px;
+}
+
+
+
+.post-icons {
+	@include padding(0, 10px, 0, 0);
+	box-sizing: border-box;
+	color: #aaa;
+}
+
+.pagination {
+	float: left;
+}
+
+.pagination li a {
+	border: none;
+}
+
+.pagination .active a,
+.pagination .active a:hover {
+	background: #34495e;
+}
+
+@media(max-width: 767px) {
+	aside {
+		width: 100%;
+		float: unset;
+	}
+
+	#posts {
+		width: 100%;
+	}
+}

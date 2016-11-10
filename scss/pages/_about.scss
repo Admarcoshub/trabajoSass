@@ -1,0 +1,64 @@
+#about {
+	background: $bg-fondo;
+	box-sizing: border-box;
+	color: #475a6d;
+	@include padding(50px, 0, 0, 50px);
+}
+
+.progress {
+	height: 30px;
+}
+
+.progress-bar {
+	@include padding(3px, 0, 0, 0);
+}
+
+#meet-team {
+	text-align: center;
+	@include margin-bottom(50px);
+}
+
+.t-member {
+	text-align: center;
+	@include margin-bottom(20px);
+}
+
+.senior {
+	font-weight: normal;
+	color: #aaa;
+}
+
+.soci {
+	width: 40px;
+	height: 40px;
+	@include padding(10px, 10px, 10px, 10px);
+	box-sizing: border-box;
+	border-radius: 100%;
+	overflow: hidden;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.fb {
+	background: #4f7dd4;
+}
+
+.gp {
+	background: #dc422b;
+}
+
+.tw {
+	background: #5bceff;
+}
+
+.lin {
+	background: #21a6d8;
+}
+
+.fa-facebook,
+.fa-google-plus,
+.fa-twitter,
+.fa-linkedin {
+	color: $white;
+	font-size: 20px;
+}

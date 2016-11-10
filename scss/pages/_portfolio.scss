@@ -1,0 +1,17 @@
+
+@media (max-width: 768px) {
+	h4 {
+		font-size: 8px;
+	}
+}
+
+#portfolio {
+	background: $bg-fondo;
+}
+
+.notices {
+	@include margin-top(50px);
+	@include margin-bottom(50px);
+}
+
+
